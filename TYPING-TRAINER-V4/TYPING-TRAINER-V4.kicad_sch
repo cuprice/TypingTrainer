@@ -6033,7 +6033,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18c5414d-9b9a-49a1-b40a-7e2aed8e5b76")
 		(property "Reference" "R6"
 			(at 210.82 126.9999 0)
@@ -6044,8 +6043,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 210.82 129.5399 0)
+		(property "Value" "10k"
+			(at 209.804 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -6181,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 160.02 83.82 0)
 			(effects
 				(font
@@ -6249,7 +6248,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -6317,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 139.7 39.37 0)
 			(effects
 				(font
@@ -6451,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -6585,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 99.06 39.37 0)
 			(effects
 				(font
@@ -6789,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -6847,7 +6846,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44f3f0a8-a274-4306-a933-9090aa026632")
 		(property "Reference" "R2"
 			(at 185.42 126.9999 0)
@@ -6858,8 +6856,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 185.42 129.5399 0)
+		(property "Value" "10k"
+			(at 184.404 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -7063,7 +7061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP23017_SP"
+		(property "Value" "MCP23017"
 			(at 305.7241 59.69 0)
 			(effects
 				(font
@@ -7212,7 +7210,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -7281,7 +7279,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "2pin PinSocket"
 			(at 361.95 167.6399 0)
 			(effects
 				(font
@@ -7350,7 +7348,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x20_Pin"
+		(property "Value" "20pin PInSocket"
 			(at 242.57 27.94 90)
 			(effects
 				(font
@@ -7472,7 +7470,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 160.02 60.96 0)
 			(effects
 				(font
@@ -7600,7 +7598,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "654840c5-becb-4c51-beb3-d1a3f292f81c")
 		(property "Reference" "R8"
 			(at 223.52 126.9999 0)
@@ -7611,8 +7608,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 223.52 129.5399 0)
+		(property "Value" "10k"
+			(at 222.504 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7678,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 261.62 48.2599 0)
 			(effects
 				(font
@@ -7820,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 119.38 60.96 0)
 			(effects
 				(font
@@ -7959,7 +7956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_DIP_x02b"
+		(property "Value" "Button Switch"
 			(at 265.43 64.7699 90)
 			(effects
 				(font
@@ -8034,7 +8031,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -8353,7 +8350,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c62de8d-02af-4329-9589-a4d39e68f1e5")
 		(property "Reference" "R1"
 			(at 179.07 126.9999 0)
@@ -8364,8 +8360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 179.07 129.5399 0)
+		(property "Value" "10k"
+			(at 178.054 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 270.51 48.2599 0)
 			(effects
 				(font
@@ -8503,7 +8499,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -8561,10 +8557,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c5e52bb-8181-495f-a502-d3300dc03a9d")
 		(property "Reference" "SW26"
-			(at 281.94 74.9299 90)
+			(at 259.334 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,8 +8567,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_DIP_x02b"
-			(at 281.94 77.4699 90)
+		(property "Value" "Button Switch"
+			(at 259.334 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -8785,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 58.42 83.82 0)
 			(effects
 				(font
@@ -8907,7 +8902,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd704075-3afc-4552-a255-a9089171de85")
 		(property "Reference" "R4"
 			(at 198.12 126.9999 0)
@@ -8918,8 +8912,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 198.12 129.5399 0)
+		(property "Value" "10k"
+			(at 197.104 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9051,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 78.74 39.37 0)
 			(effects
 				(font
@@ -9125,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -9263,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -9331,7 +9325,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -9469,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -9538,7 +9532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 248.92 99.0599 0)
 			(effects
 				(font
@@ -9663,7 +9657,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1b3ad47-859a-475a-b277-48b6813ab8cf")
 		(property "Reference" "R3"
 			(at 191.77 126.9999 0)
@@ -9674,8 +9667,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 191.77 129.5399 0)
+		(property "Value" "10k"
+			(at 190.754 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 99.06 83.82 0)
 			(effects
 				(font
@@ -9811,7 +9804,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -9869,7 +9862,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec999067-f762-42b2-a8c4-b6e499e5f202")
 		(property "Reference" "R5"
 			(at 204.47 126.9999 0)
@@ -9880,8 +9872,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 204.47 129.5399 0)
+		(property "Value" "10k"
+			(at 203.454 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9931,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eef4f0ee-0cb0-4747-a7f2-fecaf507dcc6")
 		(property "Reference" "R7"
 			(at 217.17 126.9999 0)
@@ -9950,8 +9941,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 217.17 129.5399 0)
+		(property "Value" "10k"
+			(at 216.154 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10010,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -10173,7 +10164,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x01"
+		(property "Value" "CherryMX Switch"
 			(at 180.34 39.37 0)
 			(effects
 				(font
@@ -10242,7 +10233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 5mm"
 			(at 250.19 112.0774 90)
 			(effects
 				(font
