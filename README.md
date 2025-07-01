@@ -65,6 +65,7 @@ TypingTrainer/
 | 振動モーター             |                              | 8個  |              |
 | コネクタ用のピンソケット | 20pin                        | 1個  |              |
 | コネクタ用のピンソケット | 2pin                         | 1個  |              |
+| ジャンパ線              | 10cm～20cm                    | 20本くらいあれば     |                   
 
 *1 ブザーのフットプリント参考URL https://jp.sameskydevices.com/product/resource/pcbfootprint/cmt-9648-85t
 
