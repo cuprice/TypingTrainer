@@ -26,7 +26,7 @@ TypingTrainer/
     ├── TYPING-TRAINER-V4.zip # ガーバーデータ（基板製造用）
     ├── TrainerV4_h-custom/ # Arduinoスケッチ
     ├── images/ # 写真・完成図
-    ├── ★準備中docs/ # 作成手順など
+    ├── docs/ # 作成手順など
     └── README.md # このファイル
 
 ~~~
@@ -47,7 +47,6 @@ TypingTrainer/
 ---
 
 ## 必要部品
-~~~
 
 | パーツ                   | 型番 / 種類                  | 数量 | 備考         |
 | :----------------------- | :--------------------------- | :--- | :----------- |
@@ -67,7 +66,7 @@ TypingTrainer/
 | コネクタ用のピンソケット | 2pin                         | 1個  |              |
 
 *1 ブザーのフットプリント参考URL https://jp.sameskydevices.com/product/resource/pcbfootprint/cmt-9648-85t
-~~~
+
 ---
 
 ## KiCad情報
