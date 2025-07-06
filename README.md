@@ -11,6 +11,9 @@
 
 ただし、現在はアイデア段階であり、完全な完成品ではありません。今後の改善や追加機能に関しては更新を行う予定です。
 
+This repository is for beginners who are learning circuits and programming.
+I’d be happy if you could kindly support it.
+
 This is a keyboard I made while learning programming and circuits by myself.
 I am still a beginner, but I tried my best to build it.
 
