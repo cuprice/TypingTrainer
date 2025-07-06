@@ -10,6 +10,22 @@
 
 ただし、現在はアイデア段階であり、完全な完成品ではありません。今後の改善や追加機能に関しては更新を行う予定です。
 
+This is a keyboard I made while learning programming and circuits by myself.
+I am still a beginner, but I tried my best to build it.
+
+I added small parts that can vibrate to 8 keys.
+This way, you can feel which key to press without looking.
+
+I decided to share this because I couldn't find a similar typing practice device online.
+
+In this repository, I show the design data for this keyboard.
+I made the design using KiCad 8.0.
+If you put the parts on the board and connect it to an Arduino Uno R3, it will work.
+If you want to change the order of the vibrating keys, you need to change the Arduino program.
+
+Please note that this is still just an idea, not a finished product.
+I want to improve it and add more features in the future.
+
 ---
 
 ## 特徴
