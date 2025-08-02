@@ -4,6 +4,8 @@
 2025.7.27 追記
 Arduinoのスケッチを、AIを使用して加筆修正し、複数の段にまたがって順番を指定できるように変更しました。また、段を切り替えるボタンは無効となっています。フォルダ名は、TrainerV4-i
 
+I edited the Arduino sketch using AI. Now, you can set the order across several steps. The button to change steps is disabled. The folder name is TrainerV4-i.
+
 ## タイピング練習用キーボード基板
 このリポジトリは回路・プログラミング初学者の学習用です。あたたかく見守っていただけると嬉しいです。
 
