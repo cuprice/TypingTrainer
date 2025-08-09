@@ -54,7 +54,7 @@ I want to improve it and add more features in the future.
 - 電源：Arduino Uno R3経由でのUSB給電
 
 This is a practice keyboard layout with 24 keys, arranged in 8 columns and 3 rows.
-It includes a reset switch and a switch to change the rows. It's compatible with Cherry MX switches. I've confirmed it works with the Arduino Uno R3, although it's not perfect. We haven't tested it with newer Arduino models. The circuit board was designed using KiCad 8.0. The board size is about 215.9mm x 104.1mm, and it's powered by USB through the Arduino Uno R3.
+It includes a reset switch and a switch to change the rows. It's compatible with Cherry MX switches. I've confirmed it works with the Arduino Uno R3, although it's not perfect. I haven't tested it with newer Arduino models. The circuit board was designed using KiCad 8.0. The board size is about 215.9mm x 104.1mm, and it's powered by USB through the Arduino Uno R3.
 
 ---
 
