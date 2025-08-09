@@ -15,13 +15,22 @@ int motorPins[8] = {7, 6, 5, 4, 3, 2, 1, 0};
 // motorOrderには「どのモーターを振動させるか（=どの列のキーが押されるべきか）」を、
 // keyRowOrderには「どの段のキーが押されるべきか」を格納します。
 // 例: { motorOrder[0], keyRowOrder[0] } の組み合わせで最初のキー入力を判定
-int motorOrder[] = {0, 1, 2, 3, 4, 5, 6, 7,   // 段1のシーケンス
-                    0, 1, 2, 3, 4, 5, 6, 7,   // 段2のシーケンス
-                    0, 1, 2, 3, 4, 5, 6, 7};  // 段3のシーケンス
 
-int keyRowOrder[] = {1, 1, 1, 1, 1, 1, 1, 1,   // 段2のキーはrow 1
-                     0, 0, 0, 0, 0, 0, 0, 0,   // 段1のキーはrow 0
-                     2, 2, 2, 2, 2, 2, 2, 2};  // 段3のキーはrow 2
+// siroi kumo aoi sora umi kara fuku kaze
+// 白い雲、青い空、海から吹く風
+int motorOrder[] = {
+    1, 5, 3, 6, 5, 5, 4, 4, // s, i, r, o, i, k, u, m
+    6, 0, 6, 5, 1, 6, 3, 0, // o, a, o, i, s, o, r, a
+    4, 4, 5, 5, 0, 3, 0, 3, // u, m, i, k, a, r, a, f
+    4, 5, 4, 5, 0, 0, 2     // u, k, u, k, a, z, e
+};
+
+int keyRowOrder[] = {
+    1, 0, 0, 0, 0, 1, 0, 2, // s, i, r, o, i, k, u, m
+    0, 1, 0, 0, 1, 0, 0, 1, // o, a, o, i, s, o, r, a
+    0, 2, 0, 1, 1, 0, 1, 1, // u, m, i, k, a, r, a, f
+    0, 1, 0, 1, 1, 2, 0     // u, k, u, k, a, z, e
+};
 
 const int TOTAL_SEQUENCE_LENGTH = sizeof(motorOrder) / sizeof(motorOrder[0]); // 全体のシーケンス長
 
@@ -34,6 +43,9 @@ const int noteC = 261;   // ド
 const int noteD = 294;   // レ
 const int noteE = 329;   // ミ
 const int noteG = 392;   // ソ
+const int noteB = 494;   // シ 
+const int noteC_high = 523;  // 高いド 
+
 const int ResetPin = A1; // アナログピンA1をリセットスイッチ
 
 void softwareReset() {
@@ -112,6 +124,8 @@ void loop() {
       if (digitalRead(rowPins[i]) == LOW) { // 行ピンがLOWになったらボタンが押されたと判断
         if (i == expectedRow && j == expectedMotor) {
           currentMotorPlace++; // 次のモーターに進む
+          playTone(noteB); // シ
+          playTone(noteC_high); // ド (高い音)
 
           if (currentMotorPlace >= TOTAL_SEQUENCE_LENGTH) {
             programEnd = true;
