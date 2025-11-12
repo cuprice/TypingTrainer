@@ -1,3 +1,10 @@
+2025.11.12 今後の予定 Future Plan
+基板にArduino Nano Everyを乗せる。AからZまでのキーを押せるようにする
+
+I’m going to put an Arduino Nano Every on the board and make it work with keys from A to Z.
+
+![基板写真](images/trainer-v5.jpg)
+
 2025.8.2 更新
 どの段のキーを押せば良いかを、3段階のブザー音で教えるためのコードを加筆修正しました。上の段ならば高めの音、下の段ならば低めの音、真ん中の段ならその中間の音という仕組みにしました。
 
