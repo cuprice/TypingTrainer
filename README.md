@@ -4,6 +4,8 @@
 基板を新しくしました！作った基板にArduino Nano Everyを組み込みました。
 I made a new PCB and installed an Arduino Nano Every on it.
 
+![基板写真](images/trainer-v5.jpg)
+
 このリポジトリは回路・プログラミング初学者の学習用です。あたたかく見守っていただけると嬉しいです。
 
 これは、プログラミングや回路の初心者である私が、自分なりに学びながら作ってみた実装基板です。  
