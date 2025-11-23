@@ -1,16 +1,11 @@
-# PartsList
-
-| Value             | Reference                                                                                   | Qty | DNP |
-| :---------------- | :------------------------------------------------------------------------------------------ | :-- | :-- |
-| Buzzer            | BZ1                                                                                         | 1   |     |
-| 1N4148            | D1,D2,D3                                                                                    | 3   |     |
-| LED 5mm           | D4                                                                                          | 1   |     |
-| 20pin PInSocket   | J1                                                                                          | 1   |     |
-| 2pin PinSocket    | J2                                                                                          | 1   |     |
-| Motor_DC          | M1,M2,M3,M4,M5,M6,M7,M8                                                                     | 8   |     |
-| 10k               | R1,R2,R3,R4,R5,R6,R7,R8,R10,R11                                                             | 10  |     |
-| 330               | R9                                                                                          | 1   |     |
-| CherryMX Switch   | SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,                                         |     |     |
-|                   | SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24                                 | 24  |     |
-| Button Switch     | SW25,SW26                                                                                   | 2   |     |
-| MCP23017          | U2                                                                                          | 1   |     |
+Value	                Reference	Qty	備考
+Arduino Nano Every	A1	        1	マイクロコントローラー
+Buzzer	                BZ1	        1	ブザー
+1N4148	                D1 〜 D30	30	スイッチのマトリックス用ダイオード
+LED	                D100, D101	2	インジケーターLED
+Motor DC              	M1 〜 M8	        8	DCモーター
+10k	                R1 〜 R12	12	抵抗 (10kΩ)
+330	                R13, R14	2	抵抗 (330Ω, LED電流制限用)
+cherry mx switch	SW1 〜 SW30	30	Cherry MX互換キースイッチ
+2pin button	        SW100, SW101	2	2ピンのタクトスイッチなど
+MCP23017_SP	        U2	        1	I/Oエキスパンダー
