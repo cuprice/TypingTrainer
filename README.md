@@ -1,10 +1,18 @@
 ## タイピング練習用キーボード基板 Typing Haptic Trainer (Prototype)
 
+![基板写真](images/trainer-v5.jpg)
+
+2025.11.25
+Githubに公開してから数ヶ月経ちました。それ以来、触覚を利用したタッチタイピングの練習機械が他にもあることを知り、私のウェブ検索が十分でなかったと申し訳なく思いました。他の人々の作る機械はとても複雑でレベルの高いことも知り、私はまだまだ勉強不足であると思いました。もしお嫌でなければ、学習の活動を見守っていただければ幸いです。
+
+I published my project on GitHub a few months ago.
+After that, I learned that there are other typing training devices that use touch.
+I felt sorry because my web search was not good enough.
+I also found that other people’s devices are very complex and high-level, and I realized that I still have a lot to learn. If you don’t mind, I would be happy if you could watch my learning journey.
+
 2025.11.23
 基板を新しくしました！作った基板にArduino Nano Everyを組み込みました。
 I made a new PCB and installed an Arduino Nano Every on it.
-
-![基板写真](images/trainer-v5.jpg)
 
 このリポジトリは回路・プログラミング初学者の学習用です。あたたかく見守っていただけると嬉しいです。
 
